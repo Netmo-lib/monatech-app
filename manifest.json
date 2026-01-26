@@ -1,0 +1,56 @@
+{
+  "name": "MONA-TECH PRINTS Business System",
+  "short_name": "MonaTech",
+  "description": "Complete business management system for MONA-TECH PRINTS SERVICE",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2B3E82",
+  "theme_color": "#2B3E82",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "business",
+    "finance",
+    "productivity"
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "View business dashboard",
+      "url": "/?page=dashboard",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "New Transaction",
+      "short_name": "Transaction",
+      "description": "Add new transaction",
+      "url": "/?page=transactions",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
